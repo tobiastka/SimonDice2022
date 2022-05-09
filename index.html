@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>SIMON DICE</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <div class="container mt-1" id="display-interfaz-usuario">
+        <div class="row ">
+            <div class="col-8">
+
+                <div class="alert alert-primary" role="alert">
+                    <strong class="p-5" id="estado">Presiona START para comernzar a jugar!</strong>
+                </div>
+
+            </div>
+            <div class="col">
+
+                <div class="alert alert-dark" role="alert">
+                    <strong id="numero-ronda">RONDA: -</strong>
+                </div>
+                
+            </div>
+            <div class="col-1">
+                <button type="button" class="btn btn-secondary btn-lg" name="boton">START</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col bg-danger pb-5 border border-dark m-1 cuadro-juego">
+                <strong>A</strong>
+            </div>
+            <div class="col bg-success pb-5 border border-dark m-1 cuadro-juego">
+                <strong>B</strong>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col bg-warning pb-5 border border-dark m-1 cuadro-juego">
+                <strong>C</strong>
+            </div>
+            <div class="col bg-primary pb-5 border border-dark m-1 cuadro-juego">
+                <strong>D</strong>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <!-- JavaScript -->
+    <script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+    <script src="node_modules\@popperjs\core\dist\umd\popper.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
